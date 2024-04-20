@@ -60,6 +60,9 @@ header {
     transform: translateY(-100%);
 }
 
+.banner img {
+    width: 20px;
+}
 
 
 .contain-1 , .contain-2, .contain-3{
