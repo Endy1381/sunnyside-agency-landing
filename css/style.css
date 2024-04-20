@@ -6,8 +6,114 @@ img {
     width: 100%;
 }
 body {
-    background-color: aqua;
+    background-color: rgb(17, 57, 57);
+    font-family: sans-serif;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #00bfff; /* Optional: Add your desired background color */
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust as needed for spacing between links */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
 .logo {
-    width: auto;
+    max-width: 100px; 
+}
+
+
+.banner {
+    text-align: center;
+    background-image: url('/images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12%;
+    padding-bottom: 30%;
+    color: white;
+}
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 3vw;
+    transform: translateY(-100%);
+}
+
+
+
+.contain-1 , .contain-2, .contain-3{
+    display: flex;
+    justify-content: space-between;
+}
+.contain-2 {
+    flex-direction: row-reverse;
+}
+.object1-1, .object1-2, .object2-1, .object2-2 , .object3-1, .object3-2{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+.object3-2 {
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+.object3-1 {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.object3-1, .object3-2 {
+    
+}
+
+
+.text-holder {
+    transform: scale(90%);  
+}
+
+.testimonial {
+    padding-top: 2%;
+    background-color: white;
+    text-align: center;
+    
+}
+.t-cards {
+    display: flex;
+    padding-top: 2%;
+}
+.testimonial-card {
+    flex: 1;
+    padding: 2%;
 }
