@@ -61,7 +61,7 @@ header {
 }
 
 .banner img {
-    width: 20px;
+    width: 32px;
 }
 
 
@@ -96,7 +96,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10%;
     padding-top: 25%;
     padding-bottom: 10%;
 }
