@@ -10,4 +10,4 @@ its a bit responsive so i recommend checking for mobile devices too!
 no extra tools is used just plain html, css and vanila js (i wont need to use extra tools)
 
 
-Hope you liked it!😊
+Hope you like it!😊
