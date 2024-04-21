@@ -58,7 +58,7 @@ nav {
 }
 .banner {
     text-align: center;
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
