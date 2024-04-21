@@ -10,4 +10,4 @@ link: https://endy1381.github.io/sunnyside-agency-landing/
 no extra tools is used just plain html, css and vanila js (i wont need to use extra tools)
 
 
-enjoy😊
+Hope you liked it!😊
