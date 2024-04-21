@@ -82,8 +82,16 @@ nav {
 h2, h3 {
     font-family: 'Fraunces', serif;
 }
-h2 {
-    color: ;
+
+.contact {
+    font-family: 'Fraunces', serif;
+
+    color: black;
+    background-color: white;
+    padding: 10%;
+    border-radius: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
@@ -178,7 +186,8 @@ h2 {
 .testimonial-card h5{
     margin-top: 10%;
     margin-bottom: 10%;
-    font-size: large;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.801);
 }
 
 footer {
@@ -210,7 +219,6 @@ footer {
     color: hsl(167, 40%, 24%);
     font-weight: bolder;
     
-    padding-top: 0;
 }
 
 .social {
@@ -238,9 +246,17 @@ footer {
     color: black;
 }
 .ul-responsive li {
-    padding: 8%;
+    padding: 5%;
 }
 
+
+.contact-responsive {
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 32px;
+    font-family: 'Fraunces', serif;
+    display: inline-block;
+    padding: 3%;
+}
 
 button {
     background-color: rgba(255, 228, 196, 0);
@@ -290,11 +306,11 @@ button {
         padding-top: 30px;
     }
     .bottom-logo {
-        padding: 20px;
+        padding: 1%;
     }
-    .footer {
-        padding: 30px;
+    footer {
         padding-top: 5%;
+        padding-bottom: 5%;
     }
 
 }
